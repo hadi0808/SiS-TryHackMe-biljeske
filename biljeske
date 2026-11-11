@@ -1,0 +1,129 @@
+1. Starting Out in Cyber Sec –
+
+* Kibernetička sigurnost je zaštita računala, mreža i podataka od napada.
+* Hakeri pokušavaju pronaći sigurnosne propuste u sustavima.
+* White Hat – etički haker koji testira sigurnost uz dopuštenje.
+* Black Hat – haker koji neovlašteno napada sustave.
+* Grey Hat – haker koji može tražiti propuste bez dopuštenja, ali ne mora imati zlonamjernu namjeru.
+* Red Team – simulira napade kako bi provjerio sigurnost.
+* Blue Team – brani sustave, prati napade i reagira na prijetnje.
+* Penetration testing – dopušteno testiranje sigurnosti sustava.
+* Važno je redovito ažurirati programe i koristiti jake lozinke.
+
+
+2. What Is Networking – 
+
+* Računalna mreža povezuje više uređaja radi razmjene podataka.
+* LAN – lokalna mreža, npr. u školi ili kući.
+* WAN – mreža koja povezuje udaljene mreže, npr. internet.
+* IP adresa – adresa uređaja u mreži.
+* MAC adresa – hardverska adresa mrežnog sučelja.
+* Router – usmjerava promet između mreža.
+* Switch – povezuje uređaje unutar lokalne mreže.
+* DNS – pretvara nazive web-stranica u IP adrese.
+* Ping – provjerava dostupnost drugog uređaja.
+* Podaci se mrežom prenose u paketima.
+
+Primjer naredbe:
+ping google.com
+
+
+3. Web Security Essentials – 
+
+* Web sigurnost štiti web-stranice, aplikacije i njihove korisnike.
+* HTTP – protokol za komunikaciju između preglednika i poslužitelja.
+* HTTPS – sigurnija verzija HTTP-a koja koristi šifriranje.
+* GET – zahtjev za dohvaćanje podataka.
+* POST – zahtjev kojim se najčešće šalju podaci.
+* Cookie – mali podatak koji web-stranica sprema u preglednik.
+* SQL Injection – napad ubacivanjem SQL naredbi kroz nesiguran unos.
+* XSS – ubacivanje zlonamjernog skriptnog koda u web-stranicu.
+* Authentication – provjera identiteta korisnika.
+* Authorization – određivanje prava pristupa korisnika.
+* Web-aplikacije treba zaštititi provjerom korisničkog unosa i pravilnim upravljanjem pristupom.
+
+
+4. Linux Fundamentals –
+
+* Linux je operacijski sustav koji se često koristi za poslužitelje i sigurnosno testiranje.
+* Terminal omogućuje upravljanje računalom pomoću naredbi.
+* Root je administratorski korisnik s najvećim ovlastima.
+* Linux koristi sustav datoteka koji počinje od direktorija /.
+* Linux razlikuje velika i mala slova u nazivima datoteka.
+
+Najvažnije naredbe:
+pwd-Prikazuje trenutni direktorij
+ls-Prikazuje datoteke i mape
+cd-Promjena direktorija
+mkdir-Stvara novu mapu
+touch-Stvara praznu datoteku
+cat-Prikazuje sadržaj datoteke
+cp-Kopira datoteke
+mv-Premješta ili preimenuje
+rm-Briše datoteke
+sudo-Pokreće naredbu s višim ovlastima
+whoami-Prikazuje trenutnog korisnika
+chmod-Mijenja dozvole datoteke
+
+
+5. Threat Emulation Intro –
+
+* Threat Emulation znači oponašanje stvarnih kibernetičkih napada u kontroliranom okruženju.
+* Cilj je provjeriti može li sigurnosni sustav prepoznati i zaustaviti napad.
+* Red Team izvodi simulirane napade, a Blue Team pokušava otkriti i spriječiti napade.
+* TTP označava taktike, tehnike i postupke koje koriste napadači.
+* MITRE ATT&CK je baza poznatih taktika i tehnika napadača.
+* Simulacijom se mogu pronaći slabosti u zaštiti.
+* Testiranje se mora provoditi uz dopuštenje.
+
+
+6. Google Dorking – 
+
+* Google Dorking koristi posebne operatore za preciznije pretraživanje interneta.
+* Može pomoći pri pronalaženju javno dostupnih datoteka, stranica i informacija.
+* Koristi se i u sigurnosnom istraživanju.
+
+Najvažniji operatori:
+site:	Pretražuje određenu web-stranicu
+filetype:	Traži određenu vrstu datoteke
+intitle:	Traži riječ u naslovu stranice
+inurl:	Traži riječ u URL adresi
+“tekst”-Traži točan izraz
+-rijec-Isključuje riječ iz rezultata
+
+
+7. Passive Recon – 
+
+* Reconnaissance znači izviđanje, odnosno prikupljanje informacija o cilju.
+* Pasivno izviđanje prikuplja informacije bez izravnog kontaktiranja ciljanog sustava.
+* Koriste se javno dostupni izvori informacija.
+* OSINT znači prikupljanje informacija iz otvorenih izvora.
+* Mogu se pronaći domene, javne IP adrese, e-mail adrese i informacije o organizaciji.
+* WHOIS prikazuje javno dostupne podatke o registraciji domene.
+* DNS lookup omogućuje pregled DNS zapisa.
+* Shodan je tražilica uređaja i servisa dostupnih na internetu.
+
+
+8. Active Recon -
+
+* Aktivno izviđanje znači izravno slanje zahtjeva ciljanom sustavu radi prikupljanja informacija.
+* Za razliku od pasivnog izviđanja, cilj može zabilježiti naše aktivnosti.
+* Koristi se za provjeru dostupnosti uređaja, otvorenih portova i mrežnih servisa.
+* Port je broj koji označava komunikacijsku krajnju točku mrežnog servisa.
+* Nmap je alat za skeniranje mreža i portova.
+* Traceroute prikazuje put kojim paketi prolaze do odredišta.
+* Telnet se može koristiti za uspostavljanje TCP veze i provjeru dostupnosti servisa.
+* Aktivno skeniranje treba provoditi samo na sustavima za koje imamo dopuštenje.
+
+Red Team-Napada u kontroliranim uvjetima
+Blue Team-Brani sustav
+HTTP-Nešifrirana web komunikacija
+HTTPS-Šifrirana web komunikacija
+LAN-Lokalna mreža
+WAN-Široka mreža
+Passive Recon-Prikupljanje bez izravnog kontakta s ciljem
+Active Recon-Izravno ispitivanje ciljanog sustava
+Google Dorking-Napredno pretraživanje Googleom
+OSINT-Prikupljanje javno dostupnih informacija
+Nmap-Skeniranje mreža i portova
+WHOIS-Podaci o registraciji domene
